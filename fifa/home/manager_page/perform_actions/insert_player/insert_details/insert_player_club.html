@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body style="background: linear-gradient(to left, #5900b3,#8000ff,#9933ff,#b366ff );">
+  <img src="bg.png" height="756px" width="100%">
+  <div class="txtoverimg">
+<h1 style="color:#400080;text-align: center;">Club Details</h1>
+</div>
+<form action="insert/insert_player_club.php" method="post">
+<div class="center">
+<div class="container">
+
+    <label for="choice"><b>PLAYER ID</b></label>
+    <input type="number" name="pid" pattern="[0-9]+" required>
+    <br/><br>
+    <label for="pclub"><b>CLUB</b></label>
+    <input type="text" name="pclub" pattern="[A-Z\s]+" required>
+    <br/><br>
+    <label for="pposition"><b>PLAYING POSITION</b></label>
+    <input type="text" name="pposition" pattern="[A-Z-]+" required>
+    <br/><br>
+    <button type="submit">Submit</button>
+    <br/>
+    
+</div>
+</form>
+  
+</body>
+</html>

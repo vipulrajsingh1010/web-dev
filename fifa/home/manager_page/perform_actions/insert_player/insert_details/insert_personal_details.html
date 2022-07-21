@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body style="background: linear-gradient(to left, #5900b3,#8000ff,#9933ff,#b366ff );">
+  <img src="bg.png" height="756px" width="100%">
+  <div class="txtoverimg">
+<h1 style="color:#400080;text-align: center;">Personal Details</h1>
+</div>
+<form action="insert/insert_personal_details.php" method="POST">
+<div class="center">
+<div class="container">
+
+    <label for="choice"><b>PLAYER ID</b></label>
+    <input type="number" name="pid" pattern="[0-9]+" required>
+    <br/><br><br>
+    <label for="pname"><b>NAME</b></label>
+    <input type="text" name="pname" pattern="[A-Z\s]+" required>
+    <br><br/><br>
+    <label for="page"><b>AGE</b></label>
+    <input type="number" name="page" pattern="[0-9]+" required>
+    <br/><br><br>
+    <label for="prating"><b>OVERALL RATING</b></label>
+    <input type="text" name="prating" pattern="[0-9]+" required>
+    <br/><br><br>
+    <label for="pnationality"><b>NATIONALITY</b></label>
+    <input type="text" name="pnationality" pattern="[A-Z\s]+" required>
+    <br/>    <br><br>
+    
+    <button type="submit">Submit</button>
+    <br/>
+    
+</div>
+</form>
+  
+</body>
+</html>

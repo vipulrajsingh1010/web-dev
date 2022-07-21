@@ -1,0 +1,61 @@
+.txtoverimg{
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  left: 16px;
+}
+h1{
+  background-color: lavender;
+  margin: 40px 250px;
+  border-radius: 30px;
+}
+body {
+  font-family: Roman, Helvetica, sans-serif;
+}
+
+label[for=choice],label[for=value]{
+ background-color: white;
+  border-radius: 8px; 
+  color: black;
+}
+
+select[name=choice],input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  width: 50%;
+  font-family: "Collegiateinsideflf";
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+button:hover {
+ border: 0.3px  solid whitesmoke;
+}
+
+.center{
+   
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+.container {
+  padding: 16px ;  
+  border-radius: 65px;
+}

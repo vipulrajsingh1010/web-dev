@@ -1,0 +1,104 @@
+.txtoverimg{
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  left: 16px;
+}
+h1{
+  background-color: lavender;
+  margin: 30px 250px;
+  border-radius: 30px;
+}
+body {
+  font-family: Roman, Helvetica, sans-serif;
+}
+
+label[for=choice],label[for=pname],label[for=page]
+,label[for=prating],label[for=pnationality],label[for=pclub],
+label[for=pposition],label[for=pwage],label[for=pvalue],
+label[for=pid],label[for=ppos],label[for=pbalance],
+label[for=pacceleration],label[for=pbalance],
+label[for=pballcontrol],label[for=pcrossing],label[for=pcurve],
+label[for=pcurve],label[for=pdribbling],label[for=pfinishing],
+label[for=pgkk],label[for=pgkp],label[for=ppenalties],
+label[for=pshortpass],label[for=pstamina],label[for=pstrength]{
+ background-color: white;
+  border-radius: 6px; 
+  color: black;
+}
+
+.container>input[type=text],.container>input[type=number]{
+  width: 90%;
+  padding: 12px 10px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.container2 > input[type=number],.container3 > input[type=number],.container2 > select[name=pos]{
+  width: 115%;
+  padding: 8px 5px;
+  margin: 7px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  width: 50%;
+  font-family: "Collegiateinsideflf";
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+button:hover {
+ border: 0.3px  solid whitesmoke;
+}
+.center{
+   
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+.center2{
+   
+   position:absolute;
+   top:46%;
+   left:30%;
+   transform:translate(-50%,-50%);
+}
+.center3{
+   
+   position:absolute;
+   top:50%;
+   left:60%;
+   transform:translate(-50%,-50%);
+}
+
+
+
+.container {
+  padding: 16px ;
+  padding-top: 70px;
+  padding-left: 19px;
+  border-radius: 65px;
+}
+
+.container2 {
+  padding-left: 18px;
+  padding-right: 48px;
+  padding-top: 70px;
+  padding-bottom: 15px;
+  margin: 10px;
+  border-radius: 65px;
+}

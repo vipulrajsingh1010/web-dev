@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body style="background: linear-gradient(to left, #282640,#282460 );">
+   <img src="bg.png" height="756px" width="100%">
+   <div class="txtoverimg">
+    <h1 style="color:#66609f; text-align: center;">Search</h1>
+  </div>
+<form action="search_value.php" method="post">
+<div class="center">
+<div class="container">
+    <label for="choice1"><b>Search by</b></label>
+    <select name="choice2">
+      <option>---</option>
+      <option>PLAYER ID</option>
+      <option>NAME</option>
+      <option>AGE</option>
+      <option>OVERALL RATING</option>
+      <option>NATIONALITY</option>
+      <option>CLUB</option>
+      <option>POSITION</option>
+    </select>
+    <br/><br>
+    <label for="value"><b>Enter Corresponding value</b></label>
+    <input type="text" placeholder="VALUE"name="value" required>
+    <br/><br><br>
+    <button type="submit">Submit</button>
+    <br/>
+</div>
+</form>
+  
+</body>
+</html>

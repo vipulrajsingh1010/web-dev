@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <head>
+<body style="background: linear-gradient(to left, #5900b3,#8000ff,#9933ff,#b366ff );">
+  <img src="bg.png" height="752px" width="100%">
+  <div class="txtoverimg">
+<h1 style="color:#400080;text-align: center;">Player Statistics Details</h1>
+</div>
+<form action="insert/insert_player_stats.php" method="post">
+<div class="center2">
+<div class="container2">
+
+    <label for="pid"><b>PLAYER ID</b></label>
+    <input type="number" name="pid" pattern="[0-9]+" required>
+    <br/>
+    <label for="ppos"><b>POSITION</b></label>
+    <select name="pos">
+      <option>---</option>
+      <option>GOAL KEEPER</option>
+      <option>DEFENDER</option>
+      <option>CENTRAL MID</option>
+      <option>FORWARD</option>
+    </select>
+    <br/>
+    <label for="pacceleration"><b>ACCELARATION</b></label>
+    <input type="number" placeholder="upto 100" name="pacceleration" pattern="[0-9]+" required>
+    <br/>
+    <label for="pbalance"><b>BALANCE</b></label>
+    <input type="number" placeholder="upto 100" name="pbalance" pattern="[0-9]+" required>
+    <br/>
+    <label for="pballcontrol"><b>BALL CONTROLL</b></label>
+    <input type="number" placeholder="upto 100" name="pballcontrol" pattern="[0-9]+" required>
+    <br/>
+    <label for="pcrossing"><b>CROSSING</b></label>
+    <input type="number" placeholder="upto 100" name="pcrossing" pattern="[0-9]+" required>
+    <br/>
+    <label for="pcurve"><b>CURVE</b></label>
+    <input type="number" placeholder="upto 100" name="pcurve" pattern="[0-9]+" required>
+    <br/>
+    <label for="pdribbling"><b>DRIBBLING</b></label>
+    <input type="number" placeholder="upto 100" name="pdribbling" pattern="[0-9]+" required>
+    <br/>
+  </div>
+  </div>
+   <div class="center3">
+   <div class="container3">
+    <label for="pfinishing"><b>FINISHING</b></label>
+    <input type="number" placeholder="upto 100" name="pfinishing" pattern="[0-9]+" required>
+    <br/>
+    <label for="pgkk"><b>GOALKEEPER KICK</b></label>
+    <input type="number" placeholder="upto 100" name="pgkk" pattern="[0-9]+" required>
+    <br/>
+    <label for="pgkp"><b>GOALKEEPER PASS</b></label>
+    <input type="number" placeholder="upto 100" name="pgkp" pattern="[0-9]+" required>
+    <br/>
+    <label for="ppenalties"><b>PENALTIES</b></label>
+    <input type="number" name="ppenalties" pattern="[0-9]+" required>
+    <br/>
+    <label for="pshortpass"><b>SHORT PASS</b></label>
+    <input type="number" placeholder="upto 100" name="pshortpass" pattern="[0-9]+" required>
+    <br/>
+    <label for="pstamina"><b>STAMINA</b></label>
+    <input type="number" placeholder="upto 100" name="pstamina" pattern="[0-9]+" required>
+    <br/>
+    <label for="pstrength"><b>STRENGTH</b></label>
+    <input type="number" placeholder="upto 100" name="pstrength" pattern="[0-9]+" required>
+    <br/>   
+    <button type="submit">Submit</button>
+    <br/>
+  </div>
+</div>
+</form>
+  
+</body>
+</html>

@@ -1,0 +1,60 @@
+.txtoverimg{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+body {font-family: Roman, Helvetica, sans-serif;}
+
+label[for=password],label[for=username]{
+  color: lightyellow;
+  border-radius: 5px;
+}
+
+input[type=text],input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  padding: 12px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  font-family: "Collegiateinsideflf";
+  width: 45%;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  padding: 10px;
+  color: darkred;
+  background-color: #ff6600;
+
+}
+
+.center{   
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+.container {
+  padding: 35px;
+  padding-top: 55px;
+}
+
+
+
+

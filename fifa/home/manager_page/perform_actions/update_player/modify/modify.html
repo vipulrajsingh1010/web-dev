@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body style="background: linear-gradient(to left, #282640,#282460 );">
+  <img src="bg.png" height="756px" width="100%">
+  <div class="txtoverimg">
+<h1 style="color: darkred; text-align: center;">Modify</h1>
+</div>
+<form action="modify_data.php" method="post">
+<div class="center">
+<div class="container">
+    <label for="id"><b>Enter ID</b></label>
+    <input type="text" name="id" pattern="[0-9]+" required>
+    <br/><br>
+    <label for="choice"><b>Attribute to Update</b></label>
+    <select name="choice">
+    <option>---</option>
+    <option>age</option>
+    <option>overall_rating</option>
+    <option>---</option>
+    <option>accelaration</option>
+    <option>balance</option>
+    <option>ball_control</option>
+    <option>crossing</option>
+    <option>curve</option>
+    <option>dribbling</option>
+    <option>finishing</option>
+    <option>gk_kicking</option>
+    <option>gk_positioning</option>
+    <option>penalties</option>
+    <option>short_pass</option>
+    <option>stamina</option>
+    <option>strength</option>
+    <option>---</option>
+    <option>player_wage</option>
+    <option>player_value</option>
+    <option>---</option>
+    <option>player_club</option>
+    <option></option>
+    
+    </select><br>
+    <br/>
+    <label for="value"><b>Enter Corresponding value</b></label>
+    <input type="text" name="value" required>
+    <br/>
+    <button type="submit">Submit</button>
+    <br/>
+</div>
+</form>
+  
+</body>
+</html>

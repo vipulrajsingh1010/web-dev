@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="menu.css">
+<style>
+
+</style>
+</head>
+<body style="background: linear-gradient(to left, #282640,#282460 );">
+  <img src="bg.png" height="756px" width="100%">
+  <div class="txtoverimg">
+<h1 style="color:#66609f; text-align: center;">Delete</h1>
+</div>
+<form action="delete_value.php" method="post">
+<div class="center">
+<div class="container">
+    <label for="choice"><b>Type to Delete by</b></label>
+    
+    <select name="choice"  required>
+    <option>---</option>
+    <option>NAME</option>
+    <option>AGE</option>
+    <option>PALYER ID</option>
+    <option>OVERALL RATING</option>
+    <option>NATIONALITY</option>
+    </select><br>
+    <br/>
+    <label for="value"><b>Enter Corresponding value</b></label>
+    <input type="text" placeholder="VALUE" name="value" required>
+    <br/>
+    <button type="submit">Submit</button>
+    <br/>
+</div>
+</form>
+  
+</body>
+</html>

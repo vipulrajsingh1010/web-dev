@@ -1,0 +1,47 @@
+
+
+
+body {
+  font-family: 'monospace', monospace;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+  color: white;
+  padding: 16px 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px 5px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  width:100%;
+  border-radius:32px ;
+}
+
+.button1 ,.button2{
+  background-color: #a40302;
+  color: white;
+  font-family: "Collegiateinsideflf";
+  font-size: 20px;
+}
+
+.button1:hover{
+  border: 2px solid whitesmoke;
+  border-color: red;
+  color: red;
+}
+
+.button2:hover{
+  border: 2px solid whitesmoke;
+  color: lightgreen;
+  border-color: lightgreen;
+}
+
+.center{
+   position:absolute;
+   top:40%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
